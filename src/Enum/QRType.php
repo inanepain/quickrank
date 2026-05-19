@@ -8,7 +8,7 @@
  * $Id$
  * $Date$
  *
- * PHP version 8.4
+ * PHP version 8.5
  *
  * @author Philip Michael Raab <philip@cathedral.co.za>
  * @package inanepain\quickrank
@@ -24,9 +24,9 @@ declare(strict_types = 1);
 
 namespace Inane\QR\Enum;
 
-use Inane\Stdlib\Exception\ParseException;
-use function strcasecmp;
 use Uri\Rfc3986\Uri;
+
+use function strcasecmp;
 
 use const false;
 use const null;
