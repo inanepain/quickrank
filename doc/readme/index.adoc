@@ -1,4 +1,5 @@
 = inanepain/quickrank image:./icon.png[title=inanepain/quickrank,25]
+// tag::tagConfig[]
 :author: Philip Michael Raab
 :email: <philip@cathedral.co.za>
 :description: QR Code Generator for PHP.
@@ -18,6 +19,7 @@
 :pkg-vendor: inanepain
 :pkg-name: quickrank
 :pkg-id: {pkg-vendor}/{pkg-name}
+// end::tagConfig[]
 
 == image:./icon.png[title={pkg-id},25] {pkg-id}
 
