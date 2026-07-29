@@ -27,6 +27,11 @@
             "Inane\\QR\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Inane\\QR\\Tests\\": "tests/"
+        }
+    },
     "config": {
         "preferred-install": "dist",
         "optimize-autoloader": true,
