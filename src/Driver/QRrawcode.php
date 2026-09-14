@@ -69,7 +69,7 @@ class QRrawcode {
 	}
 
 	/**
-	 * Initialize RS blocks and populate parity buffers for both block groups.
+	 * Initialise RS blocks and populate parity buffers for both block groups.
 	 *
 	 * @return int 0 on success, -1 on failure
 	 */

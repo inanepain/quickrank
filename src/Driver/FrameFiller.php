@@ -51,7 +51,7 @@ class FrameFiller {
     public int $y;
     /** Current vertical direction: 1 down, -1 up. */
     public int $dir;
-    /** Sub-bit toggle within a 2-column step: -1 uninitialized, 0/1 active. */
+    /** Sub-bit toggle within a 2-column step: -1 uninitialised, 0/1 active. */
     public int $bit;
 
     /**

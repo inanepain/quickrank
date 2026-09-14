@@ -68,7 +68,7 @@ class QRrsItem {
     }
 
     /**
-     * Initialize RS codec for given parameters (char symbols).
+     * Initialise RS codec for given parameters (char symbols).
      *
      * Based on Phil Karn's LGPL implementation.
      *
@@ -195,7 +195,7 @@ class QRrsItem {
                 }
             }
 
-            // Shift 
+            // Shift
             array_shift($parity);
             if ($feedback !== $A0) {
                 $parity[] = $ALPHA_TO[$this->modnn($feedback + $GENPOLY[0])];
